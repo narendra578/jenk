@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout source code from Git
-                git 'https://github.com/narendra578/DevOps-sonar-with-Jenkins-file.git'
+                git 'https://github.com/narendra578/jenk/blob/main/jenksonar'
             }
         }
 
